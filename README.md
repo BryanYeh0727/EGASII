@@ -3,9 +3,7 @@
 [[Paper]]()
 
 ## Overview
-Recently, there are studies of Graph Convolutional Network (GCN) trying to overcome the over-smooting problem in order to get a deeper graph network, and the computational cost and memory usage of GCN is increasing. 
-This paper, EGASII, aims to use Neural Architecture Search (NAS) to automatically derive an efficient GCN architecture. Initial residual and identity mapping is added to the candidate operations, and EGASII tries to find the combination and connection of these candidate operations, in order to derive an architecture that has better accuracy. 
-This NAS method could find efficient architecture that has better accuracy under the same model size, and inference time is also improved.
+Recently, Graph Convolutional Network (GCN) studies are trying to overcome the over-smoothing problem to get a deeper graph network, and the computational cost and memory usage of GCN is increasing. This paper, EGASII, uses Neural Architecture Search (NAS) to derive an efficient GCN architecture automatically. Initial residual and identity mapping is added to the candidate operations, and EGASII tries to find the combination and connection of these candidate operations to derive an architecture with better accuracy. This NAS method could find efficient architecture with better accuracy under the same model size, and inference time is also improved.
 
 <p align="center">
   <img src='./pic/overview.png' width=900>
