@@ -3,7 +3,7 @@ All experiments are done on single RTX 2080TI.
 
 Best derived architecture:
 <p align="center">
-  <img src='../../pic/ppi.png' width=600>
+  <img src='../../pic/ppi.jpg' width=600>
 </p>
 
 ### Search 
