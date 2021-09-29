@@ -3,7 +3,7 @@
 [[Paper]]()
 
 ## Overview
-Recently, Graph Convolutional Network (GCN) studies are trying to overcome the over-smoothing problem to get a deeper graph network, and the computational cost and memory usage of GCN is increasing. This paper, EGASII, uses Neural Architecture Search (NAS) to derive an efficient GCN architecture automatically. Initial residual and identity mapping is added to the candidate operations, and EGASII tries to find the combination and connection of these candidate operations to derive an architecture with better accuracy. This NAS method could find efficient architecture with better accuracy under the same model size, and inference time is also improved.
+Recently, Graph Convolutional Network (GCN) architectures are getting deeper, and the model size and inference time of GCN are increasing. This paper proposes EGASII, which uses Neural Architecture Search (NAS) to automatically derive an efﬁcient GCN architecture. EGASII combines PDARTS and SGAS to narrow the accuracy gap between the search phase and the evaluation phase. Initial residual and identity mapping is added to the candidate operations. EGASII tries to ﬁnd the combination and connection of these candidate operations to derive an architecture with improved model size and inference time efﬁciency. As a result, the derived architecture of EGASII has less model size or inference time. That is, given the same constraints on model size or inference time, the derived architecture of EGASII has improved accuracy. For the PPI dataset, model size and inference time efﬁciency are improved. For the ModelNet dataset, model size efﬁciency is improved. Both datasets are node classification tasks under inductive setting.
 
 <p align="center">
   <img src='./pic/overview.png' width=900>
